@@ -1,0 +1,50 @@
+<orgPdbCompositeQuery version="1.0">
+  <resultCount>3476</resultCount>
+  <queryId>766A264E</queryId>
+  <queryRefinement>
+    <queryRefinementLevel>0</queryRefinementLevel>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ChainTypeQuery</queryType>
+      <description>Chain Type: there is a RNA chain</description>
+      <queryId>3BEA47D5</queryId>
+      <resultCount>3476</resultCount>
+      <runtimeStart>2017-03-13T12:29:01Z</runtimeStart>
+      <runtimeMilliseconds>258</runtimeMilliseconds>
+      <containsProtein>?</containsProtein>
+      <containsDna>?</containsDna>
+      <containsRna>Y</containsRna>
+      <containsHybrid>?</containsHybrid>
+    </orgPdbQuery>
+  </queryRefinement>
+  <queryRefinement>
+    <queryRefinementLevel>1</queryRefinementLevel>
+    <conjunctionType>and</conjunctionType>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ExpTypeQuery</queryType>
+      <description>Experimental Method is X-RAY</description>
+      <queryId>F3FBFEFA</queryId>
+      <resultCount>113958</resultCount>
+      <runtimeStart>2017-03-13T12:29:01Z</runtimeStart>
+      <runtimeMilliseconds>9274</runtimeMilliseconds>
+      <mvStructure.expMethod.value>X-RAY</mvStructure.expMethod.value>
+    </orgPdbQuery>
+  </queryRefinement>
+  <queryRefinement>
+    <queryRefinementLevel>2</queryRefinementLevel>
+    <conjunctionType>and</conjunctionType>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ResolutionQuery</queryType>
+      <description>Resolution is between 0.0 and 3.5 </description>
+      <queryId>C9782E8D</queryId>
+      <resultCount>112217</resultCount>
+      <runtimeStart>2017-03-13T12:29:11Z</runtimeStart>
+      <runtimeMilliseconds>5335</runtimeMilliseconds>
+      <refine.ls_d_res_high.comparator>between</refine.ls_d_res_high.comparator>
+      <refine.ls_d_res_high.min>0.0</refine.ls_d_res_high.min>
+      <refine.ls_d_res_high.max>3.5</refine.ls_d_res_high.max>
+    </orgPdbQuery>
+  </queryRefinement>
+</orgPdbCompositeQuery>

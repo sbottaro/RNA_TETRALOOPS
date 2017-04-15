@@ -1,0 +1,33 @@
+<orgPdbCompositeQuery version="1.0">
+  <queryRefinement>
+    <queryRefinementLevel>0</queryRefinementLevel>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ChainTypeQuery</queryType>
+      <description>Chain Type: there is a RNA chain</description>
+      <queryId>76D352C6</queryId>
+      <resultCount>3476</resultCount>
+      <runtimeStart>2017-03-13T12:40:29Z</runtimeStart>
+      <runtimeMilliseconds>122</runtimeMilliseconds>
+      <containsProtein>?</containsProtein>
+      <containsDna>?</containsDna>
+      <containsRna>Y</containsRna>
+      <containsHybrid>?</containsHybrid>
+    </orgPdbQuery>
+  </queryRefinement>
+  <queryRefinement>
+    <queryRefinementLevel>1</queryRefinementLevel>
+    <conjunctionType>and</conjunctionType>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ExpTypeQuery</queryType>
+      <description>Experimental Method is ELECTRON MICROSCOPY</description>
+      <queryId>C68442E3</queryId>
+      <resultCount>1427</resultCount>
+      <runtimeStart>2017-03-13T12:40:29Z</runtimeStart>
+      <runtimeMilliseconds>100</runtimeMilliseconds>
+      <mvStructure.expMethod.value>ELECTRON MICROSCOPY</mvStructure.expMethod.value>
+    </orgPdbQuery>
+  </queryRefinement>
+
+</orgPdbCompositeQuery>

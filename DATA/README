@@ -1,0 +1,35 @@
+This folder contains the following files:
+1. 44 .pdb files corresponding to the centroids of the 44 clusters.
+2. projections.sorted:
+   COL1: filename
+   COL2: Principal component 1
+   COL3: Principal component 2
+   COL4: Principal component 3
+   COL5: Cluster number. cluster 0 corresponds to unassigned tetraloop
+   COL6: C indicates the pdb is centroid
+3. all_distances.sorted
+   COL1: filename
+   COL2: eRMSD from GNRA centroid (cluster 1)
+   COL3:  RMSD from GNRA centroid (cluster 1)
+   COL4: eRMSD from UNCG centroid (cluster 2)
+   COL5:  RMSD from UNCG centroid (cluster 2)
+   COL6: eRMSD from centroid (unassigned clusters have distance 0)
+   COL7:  RMSD from centroid (unassigned clusters have distance 0)
+   COL8: eRMSD from CUUG centroid (cluster 35)
+   COL9:  RMSD from CUUG centroid (cluster 35)
+4. contacts.sorted
+   COL1: filename
+   COL2: sequence
+   COL3: number of tertiary contact with NA/proteins within 10 AA. 
+5. all_angles.sorted
+   COL1: filename
+   COL2: alpha angle
+   COL3: beta angle 
+   COL4: gamma angle 
+   COL5: delta angle 
+   COL6: epsilon angle 
+   COL7: zeta angle 
+   COL8: chi angle 
+   COL9: amplitude pucker 
+   COL10: phase pucker
+   COL11- as above for the other 7 nucleotides  

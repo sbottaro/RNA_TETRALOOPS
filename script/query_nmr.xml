@@ -1,0 +1,34 @@
+<orgPdbCompositeQuery version="1.0">
+  <resultCount>3476</resultCount>
+  <queryId>638BCDDA</queryId>
+  <queryRefinement>
+    <queryRefinementLevel>0</queryRefinementLevel>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ChainTypeQuery</queryType>
+      <description>Chain Type: there is a RNA chain</description>
+      <queryId>DA369A2D</queryId>
+      <resultCount>3476</resultCount>
+      <runtimeStart>2017-03-13T12:34:59Z</runtimeStart>
+      <runtimeMilliseconds>114</runtimeMilliseconds>
+      <containsProtein>?</containsProtein>
+      <containsDna>?</containsDna>
+      <containsRna>Y</containsRna>
+      <containsHybrid>?</containsHybrid>
+    </orgPdbQuery>
+  </queryRefinement>
+  <queryRefinement>
+    <queryRefinementLevel>1</queryRefinementLevel>
+    <conjunctionType>and</conjunctionType>
+    <orgPdbQuery>
+      <version>head</version>
+      <queryType>org.pdb.query.simple.ExpTypeQuery</queryType>
+      <description>Experimental Method is SOLUTION NMR</description>
+      <queryId>34BC50AB</queryId>
+      <resultCount>11677</resultCount>
+      <runtimeStart>2017-03-13T12:35:00Z</runtimeStart>
+      <runtimeMilliseconds>392</runtimeMilliseconds>
+      <mvStructure.expMethod.value>SOLUTION NMR</mvStructure.expMethod.value>
+    </orgPdbQuery>
+  </queryRefinement>
+</orgPdbCompositeQuery>
